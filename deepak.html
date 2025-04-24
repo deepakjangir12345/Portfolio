@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepak Jangir - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #2c3e50, #3498db);
+      color: #fff;
+      padding: 50px 20px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background: #1c1c1c;
+      padding: 60px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #00aaff;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .header h1 {
+      font-size: 3rem;
+      margin-top: 20px;
+      color: #00aaff;
+    }
+    .section {
+      margin-bottom: 50px;
+    }
+    .section h2 {
+      color: #00aaff;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
+    }
+    .section p, .section li {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+    .skills ul, .projects ul {
+      list-style: square inside;
+    }
+    .contact a {
+      color: #00d0ff;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 25px;
+    }
+    .social-links a {
+      color: #00aaff;
+      font-size: 1.5rem;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+    .social-links a:hover {
+      transform: scale(1.2);
+    }
+    .resume-download {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .resume-download a {
+      background-color: #00aaff;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: background 0.3s ease;
+    }
+    .resume-download a:hover {
+      background-color: #0077cc;
+    }
+    .tech-logos {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .tech-logos img {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="image.png" alt="Deepak Jangir" class="profile-pic" />
+      <h1>Deepak Jangir</h1>
+    </div>
+
+    <div class="section about">
+      <h2>About Me</h2>
+      <p>Hi! I'm Deepak Jangir, a passionate and hardworking web developer from Rajasthan. I love building clean and interactive user interfaces that provide meaningful digital experiences. I'm currently pursuing my B.Tech in Computer Science from Lamrin Tech Skills University and I'm in my 2nd year. I'm working on multiple personal projects to sharpen my development skills and dive deeper into web technologies, including frontend frameworks and cybersecurity.</p>
+    </div>
+
+    <div class="section education">
+      <h2>Education</h2>
+      <p><strong>Lamrin Tech Skills University</strong> - B.Tech in Computer Science (Cybersecurity)</p>
+      <p>2nd Year, Punjab</p>
+    </div>
+
+    <div class="section skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML - Semantic & Structured Web Pages</li>
+        <li>CSS - Styling & Responsive Designs</li>
+        <li>Cybersecurity - Web security fundamentals & vulnerability testing</li>
+      </ul>
+      <div class="tech-logos">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+        <img src="https://cdn-icons-png.flaticon.com/512/2848/2848701.png" alt="Cybersecurity" />
+      </div>
+    </div>
+
+    <div class="section projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Furniture House Website</strong> – A dynamic website layout showcasing various furniture products with modern visuals and UI/UX enhancements.</li>
+        <li><strong>Career Guidance Platform</strong> – A helpful site built to guide students towards the right career path with structured information and tools.</li>
+      </ul>
+    </div>
+
+    <div class="section contact">
+      <h2>Contact</h2>
+      <p>📞 Phone: 9799550948</p>
+      <p>📧 Email: <a href="mailto:deepjangir9799@gmail.com">deepjangir9799@gmail.com</a></p>
+      <div class="social-links">
+        <a href="https://instagram.com/pakjair713" title="Instagram" target="_blank">Instagram</a>
+        <a href="https://linkedin.com/in/deepjangir" title="LinkedIn" target="_blank">LinkedIn</a>
+        <a href="https://github.com/deepakjangir" title="GitHub" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div class="resume-download">
+      <a href="#">Download Resume</a>
+    </div>
+  </div>
+</body>
+</html>
